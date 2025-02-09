@@ -57,7 +57,7 @@ namespace chargridnum {
 
     //%blockid=chargrid_readanddecode
     //%block="read $txt with $name as index key"
-    //%name.shadow=cbcsn_indexkeyshadow name.defl="myIdxKey"
+    //%name.shadow=chargrid_indexkeyshadow name.defl="myIdxKey"
     //%group="main"
     //%weight=5
     export function read(txt:string,name:string) {
